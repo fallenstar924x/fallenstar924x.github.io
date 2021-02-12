@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang ="en" dir= "ltr">
+    
+<head>
+
+   <style media ="all">
+       body {
+           background-color: lightgray;
+       }
+
+       iframe{border: 5px solid hotpink; 
+            margin-top: 100px}
+
+
+        .skylineDiv {
+           float: left;
+           margin-top: 50px;
+           margin-left: 40px;
+     
+       }
+
+       img {
+           border: 2px solid black;
+           height: 200px;
+           width: 200px;
+           border-radius: 10px;
+       }
+
+
+       .paragraphDiv {
+           margin-top: 50px;
+           margin-right: 160px;
+           float: right;
+           height: 100px;
+           width: 310px;
+       }
+
+       .p1 {background-color: hotpink; font-family: Arial; font-size: small; height: 30px}
+       .p2 {background-color: pink; font-family: Courier; height: 50px}
+       .p3 {background-color: lightpink; font-family: corsiva; height: 50px}
+
+       .navigationBar {
+           background-color: black;
+           text-align: center;
+           top: 0;
+           width: 100%;
+           position: fixed;
+           height: 2%;
+     
+                 
+       }
+       li {
+           color: white;
+           display: inline;
+           padding: 40px;  
+           
+       }
+
+
+       ul{
+           list-style-type: none; /*remove the bullets */
+           margin: 0;
+           overflow: hidden;  /*added to ul element to prevent li elements from going outside of the list */
+       }
+  
+       
+       .navigationBar li:hover {
+           background-color: orange;   
+                
+       }
+
+       .footer {
+           background-color: black;
+           bottom: 0;
+           overflow: hidden;
+           width: 100%;
+           position: fixed;      
+       }
+
+       button {
+           background-color: orange;
+           color: white;
+           border-color: orange;
+           border-radius: 5px;
+           width: 20%;
+           float: right;
+           margin-right: 200px;   
+           margin-top: 60px;  
+        
+       }     
+
+   </style>
+</head>
+
+<body>
+
+    <div class ="navigationBar">  <!--navigation bar -->
+        <ul>
+           <li>HOME</li> 
+           <li>ABOUT</li> 
+           <li>BOOK</li>
+           <li>CONTACT</li>
+    
+        </ul>
+   
+    </div>
+
+    <div class ="footer">
+        <p style ="color: white" align="center">Study button, input, form and textarea elements</p>
+    </div>
+
+    <div class = "frame" align ="center">
+    <iframe src ="https://fallenstar924x.github.io/Assignment1.html" width ="300" height ="200"></iframe>
+    </div>
+
+    <div class ="skylineDiv">
+        <img src ="skyline.jpg">
+    </div>
+
+<div class ="paragraphDiv">
+    <div class ="p1">This is the hotpink paragraph, font family is Arial</div>
+    <div class ="p2">This is the pink paragraph, font family is Courier</div>
+    <div class ="p3">This is the lightpink paragraph, font family is Corsiva</div>
+
+</div>
+
+<div>
+<button type ="button">This is a button</button>
+</div>
+
+</body>
+</html>
