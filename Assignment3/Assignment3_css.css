@@ -1,0 +1,66 @@
+
+body {
+    background-color: lightskyblue;
+}
+
+.headingNY {
+color: blue;
+background-color: lightgreen;
+border: 4px solid red;
+/* for text elements */
+
+font-style: italic;
+font-size: 40px;
+font-weight: bold;
+font-stretch: expanded;
+text-align: center;
+text-shadow: 20px 3px 10px purple;
+box-shadow: 20px 10px 30px gold;
+
+margin-top: 30px;
+margin-right: auto;
+margin-bottom: auto;
+margin-left: auto;
+/* margin: 30px auto auto auto */
+width: 100%;
+height: 50px;
+}
+
+
+.container{
+    border: 4px solid green;
+    height: 500px;
+}
+
+.sub_container {
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 5%;
+    border: 2px solid red;
+    height: 90%;
+    float: left;
+
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.navBottomDiv {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    padding: 40px;
+    font-size: 20px;
+}
+
