@@ -1,0 +1,135 @@
+.header {
+    border-color: gray;
+    height: 100px;
+    
+}
+
+.header img {
+    width: 80px;
+    height: 100% ;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    margin-right: 5px;
+}
+
+
+.middle {
+    background-color: lightpink;
+    height: 600px;
+    width: 98%;
+    color: white;
+    margin-right: 1%;
+}
+
+.sub_mid_box img {
+    height: 100%;
+    border: 2px solid purple;
+    position: center;
+
+}
+
+.sub_mid_box {
+    width: 48%;
+    float: left;
+    padding: 10px;
+    height: 40%;
+    position: relative;
+}
+
+.contactInfo img {
+    height: 40px;
+}
+
+/*navigation at the bottom of page*/
+
+.navBottomDiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.li {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/* Hiking.html + NorthernLights.html */
+
+.container{
+    border: 4px solid black;
+    height: 400px;
+    display: flex;
+}
+
+.sub_container {
+    width: 32%;
+    margin-top: 1%;
+    margin-right: 2%;  
+    margin-left: 2%;
+    border: 2px solid black;
+    height: 90%;
+    float: left;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.mid_img{
+   border: 5px solid #235896 ;
+
+}
+
+/*Contact Us page */
+.commentContainer{
+    height: 55%;
+    box-shadow: 5px 10px 5px snow;
+  
+}
+
+.commentBox
+{
+    width: 50%;
+    padding: 10px;
+    height: 80%;
+}
+
+
+.contactBox{
+    height: 80%;
+    text-align: center;
+    width: 20%;
+}
+
+.contactBox img {
+    height:40px;
+    width: 40px;
+}
+
+.contactImage {
+    width: 20%;
+}
+.contactImage img {
+    height: 100%;
+    width: 100%;
+}
+
+#commentTextArea {
+    width: 100%;
+    height: auto;
+
+}
