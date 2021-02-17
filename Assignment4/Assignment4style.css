@@ -8,7 +8,6 @@
    
     background-color: mediumseagreen;
     border: 15px solid darkgoldenrod;
-
     border-radius: 50%;
 }
 
@@ -27,7 +26,7 @@
     transform: rotate(-90deg);
   
     transform-origin: center left;
-    animation: rotateMin 10s;
+    animation: rotateMinute 10s;
 
     animation-fill-mode: forwards;    
 }
@@ -56,7 +55,7 @@
         transform: rotate(30deg);}   
 }
 
-@keyframes rotateMin {
+@keyframes rotateMinute {
     100%{
         transform: rotate(270deg);}    
 }
