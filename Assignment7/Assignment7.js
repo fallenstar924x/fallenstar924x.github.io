@@ -1,4 +1,4 @@
-/*
+
 
 
 let userinputNets1 = parseInt(prompt("Enter score #1 for Nets:"));
@@ -47,5 +47,3 @@ else {
     console.log("Sorry! No one won");
 }
 
-
-*/
