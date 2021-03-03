@@ -1,0 +1,34 @@
+
+.innerDiv{
+    padding: 20px;
+}
+
+.innerDiv img {
+    padding: 50px;
+}
+.innerDiv a {
+    border: 5px;
+    border-radius: 5%;
+    margin-left: 90%;
+    background-color: green;
+    color: white;
+    padding: 30px;
+    height: 40px;
+    font-size: 10px;
+    margin-bottom: 40%;
+
+}
+
+.puppyDiv2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.daffodil{
+    height: 50%;
+    width: 30%;
+}
+
+.button {
+    margin-bottom: 0px;
+}
