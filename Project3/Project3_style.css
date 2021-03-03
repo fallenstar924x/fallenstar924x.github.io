@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(lightgreen, lightpink);
+}
+
+h1{
+    text-shadow: 2px 2px 5px red;
+    padding: 20px;
+}
+
+.mainDiv{
+    height: 1800px;
+    width: 100%;
+}
+
+.logoPhotoDiv{
+    width: 100%;
+    border: 5px solid purple;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.logoPhotoDiv img { 
+    width: 20%;
+    height: 5%;
+    border: 4px solid orange;
+    border-radius: 30px;
+    margin-left: 40%;
+}
+
+.center {
+    width: 100%;
+    height: 35%; 
+}
+
+.leftDiv {
+    float: left;
+    width: 50%;
+    border: 2px solid purple;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.leftDiv img {
+    height: 100%;
+    width: 10%;
+    border-radius: 20%;
+}
+
+.current_score_class, .highest_score_class  {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    border-radius: 25%;
+    border: 2px solid black;
+}
+
+#current_score {
+    font-weight: bold;
+}
+
+
+.rightDiv {
+    float: right;
+    width: 50%;
+    border: 2px solid purple;
+    height: 100%;
+    border-radius: 20px;   
+}
+
+
+textarea{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+#guessText{
+    margin-top: 40px;
+}
+
+#inputNumber {
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+
+.bottomDiv
+{
+    border: 4px solid purple;
+    height: 300px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.history{
+    text-align: center;
+    border: 6px solid green;
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+    border-radius: 3%;
+    padding: 20px;
+}
+
+.history p {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#secret_number {
+    font-size: 40px;
+    font-weight: bold;
+}
