@@ -1,0 +1,130 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Survey_style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="mainDiv">
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightgreen">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
+                aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation"></button>
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarID">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+                    <a class="nav-item nav-link active " href="#">About Our Team</a>
+                    <a class="nav-item nav-link active" href="#">Other Survey Templates</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="introDiv">
+            <h3>Thank you for taking your time to complete a student's survey!</h3><br><br>
+        </div>
+
+        <div class="formDiv form-group">
+
+            <form id="formData">
+                <div class="form-group">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" class="form-control" id="fullname" name="fullname" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="emplid">Student's ID#:</label>
+                    <input type="text" class="form-control" id="emplid" name="emplid" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="semester">Semester:</label>
+                    <select name="semester" id="semester" class="form-control" required>
+                        <option value="">Please Select...</option>
+                        <option value="Spring 2021">Spring 2021</option>
+                        <option value="Summer 2021">Summer 2021</option>
+                    </select><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <select name="subject" id="subject" class="form-control" required>
+                        <option value="">Please Select...</option>
+                        <option value="Math">Math</option>
+                        <option value="CS">Computer Science</option>
+                    </select><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="courseid">Course ID#:</label>
+                    <select name="courseid" id="courseid" class="form-control" required>
+                        <option value="">Please Select...</option>
+                        <option value="1100">1100</option>
+                        <option value="2200">2200</option>
+                    </select><br>
+                </div>
+
+
+                <p>Your Rating for this subject:</p>
+                <div class="btn-group" id="ratingDiv" data-toggle="buttons">
+                    <label class="btn">
+                        <input type="radio" class="toggle" name="rating" value="1">1
+                    </label>
+                    <label class="btn">
+                        <input type="radio" class="toggle" name="rating" value="2"> 2
+                    </label>
+                    <label class="btn">
+                        <input type="radio" class="toggle" name="rating" value="3"> 3
+                    </label>
+                    <label class="btn">
+                        <input type="radio" class="toggle" name="rating" value="4"> 4
+                    </label>
+                    <label class="btn">
+                        <input type="radio" class="toggle" name="rating" value="5"> 5
+                    </label>
+
+                </div>
+                <br><br>
+
+                <button type="button" class="btn btn-primary btn-md" id="submitSurveyBtn">Submit Survey!</button>
+
+            </form>
+        </div>
+        <!--closing of formDiv -->
+
+
+
+        <!-- BUTTONS to see different data -->
+        <div class="surveyDataDiv">
+            <button type="button" class="btn btn-success btn-md" id="pastSurveyBtn">Past survey full details!</button>
+
+            <button type="button" class="btn btn-success btn-md" id="avgRatingBySubject">Average rating by
+                subject!</button>
+
+            <button type="button" class="btn btn-success btn-md" id="totalNumOfSurveyBtn">Total # of surveys
+                submitted!</button>
+            <p><span id="databaseData"></span></p>
+        </div>
+
+
+    </div>
+    <!--closing main Div-->
+
+
+    <script src="Surveyjs.js"> </script>
+</body>
+
+</html>
